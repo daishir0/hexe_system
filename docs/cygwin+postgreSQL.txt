@@ -1,0 +1,6 @@
+1:cygwin起動
+2:ipc-daemon起動　ipc-daemon &
+3:postmaster起動　pg_ctl -o "-S -i" start
+データベース接続　psql データベース名
+4:postmaster終了　pg_ctl stop
+5:ipc-daemon killプロセス
